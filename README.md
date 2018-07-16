@@ -14,10 +14,12 @@ arm64-v8a
 
 ### Set Build environment varibale
 Set build environment variable which includes processor architecture (arch), tvm build optimization level (opt_level), compile flavor version (exec_flavor), compile required model (model_name).
-> arch = "arm64"
-> opt_level = 0
-> exec_flavor = "vulkan"
-> model_name = 'extraction'
+```bash
+arch = "arm64"
+opt_level = 0
+exec_flavor = "vulkan"
+model_name = 'extraction'
+```
 
 ### Run python script to save compiled model function
 
